@@ -102,7 +102,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@git.coding.net:yang/yang.coding.me.git       
+  #repo: https://github.com/kajskj753/kajskj753.github.io.git
+  branch: master
 
 
 #配置：首页文章设置阅读全文
